@@ -7,9 +7,10 @@ import { SkillsComponent } from './skills/skills.component';
 import { ExpComponent } from './exp/exp.component';
 import { ProjectsComponent } from './projects/projects.component';
 import { HomeComponent } from './home.component';
+import { GeneralModule } from '../general/general.module';
 
 @NgModule({
-  imports: [BrowserModule, CommonModule, FormsModule],
+  imports: [CommonModule, FormsModule, GeneralModule],
   declarations: [
     AboutComponent,
     SkillsComponent,

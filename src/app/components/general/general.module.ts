@@ -6,8 +6,8 @@ import { HeaderComponent } from './header/header.component';
 import { FooterComponent } from './footer/footer.component';
 
 @NgModule({
-  imports: [BrowserModule, CommonModule, FormsModule],
+  imports: [CommonModule, FormsModule],
   declarations: [HeaderComponent, FooterComponent],
-  bootstrap: [HeaderComponent, FooterComponent],
+  exports: [HeaderComponent, FooterComponent],
 })
 export class GeneralModule {}

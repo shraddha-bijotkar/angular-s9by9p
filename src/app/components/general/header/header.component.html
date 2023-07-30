@@ -1,0 +1,33 @@
+<nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+  <a class="navbar-brand ml-left" href="#">
+    <span class="name" *ngFor="let name of name; index as in">
+      <span style="--i:{{ in }}">{{ name }}</span>
+    </span>
+  </a>
+  <button
+    class="navbar-toggler"
+    type="button"
+    data-toggle="collapse"
+    data-target="#navbarSupportedContent"
+  >
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse flex-grow-0" id="navbarSupportedContent">
+    <ul class="navbar-nav text-right">
+      <li class="nav-item active">
+        <button class="nav-link btn btn-dark ml-auto" (click)="scroll('home')">
+          About
+        </button>
+      </li>
+      <li class="nav-item active">
+        <button class="nav-link btn btn-dark ml-auto">Experience</button>
+      </li>
+      <li class="nav-item active">
+        <button class="nav-link btn btn-dark ml-auto">Skills</button>
+      </li>
+      <li class="nav-item active">
+        <button class="nav-link btn btn-dark ml-auto">Projects</button>
+      </li>
+    </ul>
+  </div>
+</nav>
