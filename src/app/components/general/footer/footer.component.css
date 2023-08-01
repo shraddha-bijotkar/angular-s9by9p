@@ -1,0 +1,13 @@
+/* .footer {
+  position: absolute;
+  bottom: 0;
+} */
+.list-group-item:hover {
+  color: grey;
+}
+li {
+  display: block;
+}
+a {
+  all: unset;
+}

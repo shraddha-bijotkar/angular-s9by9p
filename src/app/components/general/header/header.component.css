@@ -5,9 +5,12 @@
   animation-delay: calc(0.1s * var(--i));
 }
 
-@keyframes flip {
+@keyframes linear {
   0%,
   80% {
     transform: rotateY(360deg);
   }
+}
+a {
+  all: unset;
 }
