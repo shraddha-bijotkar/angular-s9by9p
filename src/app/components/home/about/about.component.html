@@ -1,11 +1,16 @@
-<h5>Hello!</h5>
-<h5>I am</h5>
-<h2>Shraddha Bijotkar</h2>
+<div class="container">
+  <h5>
+    Hello! I am
+    <span class="name" *ngFor="let name of name; index as in">
+      <span style="--i:{{ in + 1 }}">{{ name }}</span>
+    </span>
+  </h5>
 
-<p>
-  Passionate Angular developer with <span>2 years of experience</span> in
-  crafting user interfaces that leave a lasting impression. With a strong focus
-  on code quality and attention to detail, I specialize in building scalable and
-  performant web applications using Angular framework.
-  <a>Key Skills <i class="fa fa-key"></i></a>
-</p>
+  <p>
+    Passionate Angular developer with <span>2 years of experience</span> in
+    crafting user interfaces that leave a lasting impression. With a strong
+    focus on code quality and attention to detail, I specialize in building
+    scalable and performant web applications using Angular framework.
+    <a>Key Skills <i class="fa fa-key"></i></a>
+  </p>
+</div>
