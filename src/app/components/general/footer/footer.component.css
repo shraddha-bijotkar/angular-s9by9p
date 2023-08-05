@@ -2,8 +2,11 @@
   position: absolute;
   bottom: 0;
 } */
+.list-group-item {
+  background-color: unset;
+}
 .list-group-item:hover {
-  color: grey;
+  transform: scale(1.5);
 }
 li {
   display: block;

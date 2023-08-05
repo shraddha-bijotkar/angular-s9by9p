@@ -1,10 +1,12 @@
 <div class="container">
   <img src="assets/xyz.jpg" style="border-radius: 50%" />
   <h5>
-    Hello! I am
-    <span class="name" *ngFor="let name of name; index as in">
-      <span style="--i:{{ in + 1 }}">{{ name }}</span>
-    </span>
+    Hello! My name is
+    <h5>
+      <span class="name" *ngFor="let name of name; index as in">
+        <span style="--i:{{ in + 1 }}">{{ name }}</span>
+      </span>
+    </h5>
   </h5>
 
   <p>

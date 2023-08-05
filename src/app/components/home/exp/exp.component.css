@@ -1,3 +1,8 @@
-.list-group {
-  border: 0;
+.list-group-item {
+  background: unset;
 }
+a {
+  color: unset;
+}
+
+/* Give border to each list item and different colour for selected item. Also animate on hover to glow border or just increase border by some px. */

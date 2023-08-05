@@ -4,7 +4,10 @@
   animation: flip 4s infinite;
   animation-delay: calc(0.1s * var(--i));
 }
-
+.name {
+  color: rgb(111, 241, 237);
+  font-size: 60px;
+}
 @keyframes flip {
   0%,
   80% {
