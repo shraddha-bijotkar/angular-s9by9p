@@ -5,6 +5,7 @@ import { FormsModule } from '@angular/forms';
 import { AppComponent } from './app.component';
 import { HomeModule } from './components/home/home.module';
 import { GeneralModule } from './components/general/general.module';
+import { NgVerticalTimelineModule } from 'ng-vertical-timeline';
 
 @NgModule({
   imports: [
@@ -13,6 +14,7 @@ import { GeneralModule } from './components/general/general.module';
     FormsModule,
     HomeModule,
     GeneralModule,
+    NgVerticalTimelineModule,
   ],
   declarations: [AppComponent],
   bootstrap: [AppComponent],

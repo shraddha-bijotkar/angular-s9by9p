@@ -8,9 +8,10 @@ import { ExpComponent } from './exp/exp.component';
 import { ProjectsComponent } from './projects/projects.component';
 import { HomeComponent } from './home.component';
 import { GeneralModule } from '../general/general.module';
+import { NgVerticalTimelineModule } from 'ng-vertical-timeline';
 
 @NgModule({
-  imports: [CommonModule, FormsModule, GeneralModule],
+  imports: [CommonModule, FormsModule, GeneralModule, NgVerticalTimelineModule],
   declarations: [
     AboutComponent,
     SkillsComponent,
