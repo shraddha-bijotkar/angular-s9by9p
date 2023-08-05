@@ -1,0 +1,10 @@
+#myTabContent {
+  border-color: aqua;
+  border-style: groove;
+}
+.list-group-item {
+  background: unset;
+}
+a {
+  color: unset;
+}

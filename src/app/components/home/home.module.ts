@@ -9,6 +9,7 @@ import { ProjectsComponent } from './projects/projects.component';
 import { HomeComponent } from './home.component';
 import { GeneralModule } from '../general/general.module';
 import { NgVerticalTimelineModule } from 'ng-vertical-timeline';
+import { ContactComponent } from './contact/contact.component';
 
 @NgModule({
   imports: [CommonModule, FormsModule, GeneralModule, NgVerticalTimelineModule],
@@ -17,6 +18,7 @@ import { NgVerticalTimelineModule } from 'ng-vertical-timeline';
     SkillsComponent,
     ExpComponent,
     ProjectsComponent,
+    ContactComponent,
     HomeComponent,
   ],
   exports: [
@@ -24,6 +26,7 @@ import { NgVerticalTimelineModule } from 'ng-vertical-timeline';
     SkillsComponent,
     ExpComponent,
     ProjectsComponent,
+    ContactComponent,
     HomeComponent,
   ],
 })
