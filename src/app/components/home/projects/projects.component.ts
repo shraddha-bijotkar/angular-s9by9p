@@ -11,7 +11,7 @@ export class ProjectsComponent {
       id: 0,
       title: 'Personal website',
       content:
-        'Angular 10, Bootstrap, Html, CSS, https://shraddha-bijotkar.github.io/shraddha-portfolio/',
+        'Angular 10, Bootstrap, Html, CSS',
       date: '2021',
       icon: 'https://image.flaticon.com/icons/svg/214/214335.svg',
     },
