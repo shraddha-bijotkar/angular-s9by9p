@@ -1,9 +1,9 @@
-.name span {
+/* .name span {
   position: relative;
   display: inline-block;
   animation: flip 4s infinite;
   animation-delay: calc(0.1s * var(--i));
-}
+} */
 .name {
   color: rgb(111, 241, 237);
   font-size: 60px;
