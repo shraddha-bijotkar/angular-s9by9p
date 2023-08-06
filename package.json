@@ -1,5 +1,5 @@
 {
-  "name": "angular-stackblitz-starter",
+  "name": "shraddha-bijotkar-portfolio",
   "version": "0.0.0",
   "private": true,
   "scripts": {
@@ -41,5 +41,12 @@
     "karma-jasmine": "~5.0.0",
     "karma-jasmine-html-reporter": "~1.7.0",
     "typescript": "~4.9.0"
+  },
+  "stackblitz": {
+    "startCommand": false,
+    "installDependencies": false,
+    "env": {
+      "NODE_ENV": "development"
+    }
   }
 }
