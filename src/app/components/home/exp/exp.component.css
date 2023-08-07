@@ -1,11 +1,30 @@
 .list-group-item {
+  color: lightgray;
   background: unset;
 }
-a {
+/* a:active {
+  color: rgb(111, 241, 237);
+  border: 1px;
+  border-style: solid;
+  border-color: rgb(111, 211, 241);
+} */
+.nav-link {
   color: unset;
 }
+.nav-link:active,
+.nav-link:focus {
+  border: 1px;
+  border-style: solid;
+  border-color: rgb(111, 211, 241);
+}
 #myTabContent {
-  border-color: aqua;
+  border-color: #5bc0de;
   border-style: ridge;
 }
 /* Give border to each list item and different colour for selected item. Also animate on hover to glow border or just increase border by some px. */
+hr {
+  display: inline-block;
+  width: 50%;
+  height: 6px;
+  margin: auto;
+}

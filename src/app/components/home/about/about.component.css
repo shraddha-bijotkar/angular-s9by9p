@@ -17,3 +17,9 @@
 a {
   all: unset;
 }
+hr {
+  display: inline-block;
+  width: 50%;
+  height: 6px;
+  margin: auto;
+}
