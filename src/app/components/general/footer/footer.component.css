@@ -2,11 +2,14 @@
   position: absolute;
   bottom: 0;
 } */
+.list-group,
 .list-group-item {
   background-color: unset;
+  color: rgb(194, 194, 194);
 }
 .list-group-item:hover {
-  transform: scale(1.5);
+  transition: all 0.5s;
+  transform: translateY(-10px);
 }
 li {
   display: block;

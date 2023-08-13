@@ -13,4 +13,21 @@ hr {
 .list-group-item {
   background-color: #193239;
   color: rgb(194, 194, 194);
+  border: 0;
+}
+.card:hover {
+  cursor: pointer;
+  box-shadow: 0px 12px 30px 0px rgb(0, 0, 0);
+  transition: all 0.5s;
+  transform: scale(1.05);
+}
+.list-group {
+  display: flex;
+  flex-wrap: wrap;
+}
+.card-footer .list-group-item {
+  color: rgb(111, 211, 241);
+}
+.card-footer .list-group-item:hover {
+  border-bottom: 1px solid rgb(111, 211, 241);
 }

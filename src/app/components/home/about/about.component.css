@@ -5,8 +5,22 @@
   animation-delay: calc(0.1s * var(--i));
 } */
 .name {
-  color: rgb(111, 241, 237);
-  font-size: 60px;
+  font-weight: 500;
+  font-size: 80px;
+  background: linear-gradient(
+    120deg,
+    #a5f5ff,
+    #7e57c2,
+    #0087f2,
+    #26c6da,
+    #eeff41,
+    #f6a5ff,
+    #a5f5ff
+  );
+  color: #fff;
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 @keyframes flip {
   0%,
