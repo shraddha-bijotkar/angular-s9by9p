@@ -8,18 +8,14 @@
   border-style: solid;
   border-color: rgb(111, 211, 241);
 } */
-.nav-link {
+/* .nav-link {
   color: unset;
-}
-.nav-link:active,
+} */
+
+.nav-link.active,
 .nav-link:focus {
-  border: 1px;
-  border-style: solid;
-  border-color: rgb(111, 211, 241);
-}
-#myTabContent {
-  border-color: #5bc0de;
-  border-style: ridge;
+  background-color: rgb(111, 211, 241);
+  color: black;
 }
 /* Give border to each list item and different colour for selected item. Also animate on hover to glow border or just increase border by some px. */
 hr {
@@ -27,4 +23,12 @@ hr {
   width: 50%;
   height: 6px;
   margin: auto;
+}
+
+/* Style the tab content */
+.tab-content {
+  float: left;
+  padding: 0px 12px;
+  border: 1px solid #ccc;
+  width: 70%;
 }
